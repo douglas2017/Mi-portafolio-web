@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="js.css">
+	<title></title>
+</head>
+<body>
+<div class="container a">
+	<center>
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	 width="600px" height="100px" viewBox="0 0 600 100">
+<style type="text/css">
+
+<![CDATA[
+
+	text {
+		filter: url(#filter);
+		fill: white;
+    	font-family: 'Share Tech Mono', sans-serif;
+    	font-size: 60px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+     		}
+]]>
+</style>
+	<defs>
+
+		<filter id="filter">
+		    <feFlood flood-color="black" result="black" />
+		    <feFlood flood-color="red" result="flood1" />
+		    <feFlood flood-color="limegreen" result="flood2" />
+			<feOffset in="SourceGraphic" dx="3" dy="0" result="off1a"/>
+			<feOffset in="SourceGraphic" dx="2" dy="0" result="off1b"/>
+			<feOffset in="SourceGraphic" dx="-3" dy="0" result="off2a"/>
+			<feOffset in="SourceGraphic" dx="-2" dy="0" result="off2b"/>
+		    <feComposite in="flood1" in2="off1a" operator="in"  result="comp1" />
+		    <feComposite in="flood2" in2="off2a" operator="in" result="comp2" />
+
+ 		  	<feMerge x="0" width="100%" result="merge1">
+				<feMergeNode in = "orange" />
+				<feMergeNode in = "comp1" />
+				<feMergeNode in = "off1b" />
+
+				<animate 
+					attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		
+		    		values = '104px; 104px; 30px; 105px; 30px; 2px; 2px; 50px; 40px; 105px; 105px; 20px; 6ßpx; 40px; 104px; 40px; 70px; 10px; 30px; 104px; 102px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h" 
+		    		dur ="4s"
+		    		
+		    		values = '10px; 0px; 10px; 30px; 50px; 0px; 10px; 0px; 0px; 0px; 10px; 50px; 40px; 0px; 0px; 0px; 40px; 30px; 10px; 0px; 50px'
+
+		    		keyTimes = '0; 0.362; 0.368; 0.421; 0.440; 0.477; 0.518; 0.564; 0.593; 0.613; 0.644; 0.693; 0.721; 0.736; 0.772; 0.818; 0.844; 0.894; 0.925; 0.939; 1'
+
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+ 			
+
+ 			<feMerge x="0" width="100%" y="60px" height="65px" result="merge2">
+				<feMergeNode in = "black" />
+				<feMergeNode in = "comp2" />
+				<feMergeNode in = "off2b" />
+
+				<animate attributeName="y" 
+		    		id = "y"
+		    		dur ="4s"
+		    		values = '103px; 104px; 69px; 53px; 42px; 104px; 78px; 89px; 96px; 100px; 67px; 50px; 96px; 66px; 88px; 42px; 13px; 100px; 100px; 104px;' 
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513; 0.548; 0.577; 0.613; 1'
+
+ 		    		repeatCount = "indefinite" />
+ 
+				<animate attributeName="height" 
+		    		id = "h"
+		    		dur = "4s"
+					
+					values = '0px; 0px; 0px; 16px; 16px; 12px; 12px; 0px; 0px; 5px; 10px; 22px; 33px; 11px; 0px; 0px; 10px'
+
+		    		keyTimes = '0; 0.055; 0.100; 0.125; 0.159; 0.182; 0.202; 0.236; 0.268; 0.326; 0.357; 0.400; 0.408; 0.461; 0.493; 0.513;  1'
+		    		 
+		    		repeatCount = "indefinite" />
+		    </feMerge>
+			
+		 	<feMerge>
+ 				<feMergeNode in="SourceGraphic" />	
+
+				<feMergeNode in="merge1" /> 
+ 			<feMergeNode in="merge2" />
+
+		    </feMerge>
+	    </filter>
+
+	</defs>
+
+<g>
+	<text x="0" y="100">Hola  Bienvenido a </text>
+
+</svg>
+
+</center>
+
+
+
+	<br><br>
+<div class="row">
+	<div class="col-md-12">
+		<center>
+<p class="e"> MI PORTAFOLIO </p>
+</center>
+	</div>
+</div>
+
+<div class="row">
+	<br><br>
+<div class="col-md-6">
+	<center>
+<img class="b" src="imagenes/11.jpg">
+<h2> Tengo 17 años  estoy a pocos meses de graduarme me facina el fut boll  <h1>
+</center>
+</div>
+<div class="col-md-6">
+	<center>
+<div class="ima">
+	<p class="c">Hola mi nombre es Douglas Alexander Perez Gomez te doy la vienbenida a mi portafolio  te mostrare mis pasatiempos y relatare un poco de mi , y mi vida. "ESPERANDO SEA DE TU AGRADO"
+	</p>
+	</div>
+	</center>
+</div>
+</div>
+<br><br>
+</div>
+
+<div class="container fondo1">
+	<br><br><br>
+<div class="row">
+<div class="col-md-12 ">
+<p class="f">  MIS PASATIEMPOS </p>
+</div>
+</div>
+
+<div class="row">
+	<br><br><br>
+	<center>
+	<div class="col-md-6">
+<img class="i" src="imagenes/6.jpg">
+	</div>
+</center>
+	<div class="col-md-6">
+		<center>
+<h1> FUTBOL</h1>
+		<p class="j"> Mi pasatiempo favorito sin duda alguna es el fut bol no solo es mi pasatiempo saborito si no tambien es mi deporte faborito  me gusta verlo y tambien practicarlo. </p>
+</center>
+	</div>
+</div>
+
+<div class="row">
+	<br><br><br>
+<div class="col-md-6">
+	<center>
+<h1>Video juegos</h1>
+	  <p class="k">Los video juegos son esenciales para pasar el tiempo en mis tiempos libres me gusta  jugar  mario 64 me parece super divertido y cada nivel es un reto </p>
+	  </center>
+</div>
+<div class="col-md-6">
+	<center>
+<img  class="l" src="imagenes/9.png">
+</center>
+</div>
+</div>
+
+<div class="row">
+<br><br><br>
+<div class="col-md-6">
+<img class="n" src="imagenes/10.png">
+</div>
+	<center>
+ <div class="col-md-6">
+<h1>Familia</h1>
+<p class="m"> Ls familia es lo mas importante que una perosan tiene  sin duda alguna pasar tiempo con la familia es lo mas importante y es el pasatiempo mas bonito.</p>
+</div>
+</center>
+ </div>
+
+<div class="row">
+	<br><br><br>
+<div class="col-md-6">
+	<center>
+<h1>mi musica</h1>
+<p class="o">Mi genero favorito de musica es la electronica la conbinacion de sonidos es buena pero no solo esa me gusta  todo tipo de musica  pero para mi la mejor es la electornica</p>
+</center>
+</div>
+<div class="col-md-6">
+	<center>
+<img class="p" src="imagenes/11.png">
+</center>
+</div>
+</div>
+
+</div>
+
+<div class="container q">
+<div class="row">
+	<br><br>
+	<div class="col-md-12">
+<p class="r">METAS</p>
+</div>
+</div>
+
+
+
+<div class="row">
+	<br><br>
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+	<p div class="v"> Un pensamiento , un sentimiento , un proposito y una pasion; "LOGRAR MIS METAS"</p>
+	</div>
+	<div class="col-md-4"></div>
+</div>
+
+
+<div class="row">
+	<br><br>
+<div class="col-md-6">
+<p class="s">Metas a largo plazo</p> 
+</div>
+
+<div class="col-md-6">
+<p class="s">Metas a corto plazo</p> 
+</div>
+</div>
+
+
+<div class="row">
+	<br><br><br>
+	<div class="col-md-6">
+	
+	<li div class="t">graduarme de la univercidad</li>
+	<li div class="t">poder ejerser la profecion que desee</li>
+	 <li div class="t"> jugar fut bol en ligas mayores</li>
+	 <li div class="t"> Llegar a jugar fut en  otros paises</li>
+	 <li div class="t"> ser reconosido en el fut bol </li>
+	 <li div class="t">pertenecer a un equipo de ligas menores</li>
+	
+</div>
+
+<div class="col-md-6">
+<li div class="u">Graduarme de diverisificado</li>
+<li div class="u"> Ganar todos mi laboratorios</li>
+<li div class="u"> Porder ejercer bien mis praticas</li>
+<li div class="u">Cumplir con mis horario de trabajo</li>
+<li div class="u">Ganar sin dejar ninguna roja </li>
+<li div class="u">Sacar buenas notas </li>
+</div>
+</div>
+<br><br><br>
+</div>
+
+<div class="container y">
+<div class="row">
+	<BR><BR>
+<div class="col-md-12">
+	<p class="x"> Mejores momentos </p>
+</div>
+</div>
+
+<div class="row">
+	<br><br><br>
+<div class="col-md-3">
+<img  class="z"src="imagenes/13.jpg">
+</div>
+
+
+<div class="col-md-3">
+<img  class="z"src="imagenes/14.jpg">
+</div>
+
+<div class="col-md-3">
+<img  class="z"src="imagenes/15.jpg">
+</div>
+
+<div class="col-md-3">
+<img  class="z"src="imagenes/16.jpg">
+</div>
+</div>
+
+<div class="row">
+	<br><br><br>
+<div class="col-md-12">
+<p class="col"> Quisa no tenga fotos de todos mis mejores momentos pero los momentos con mis amigos son lo mejro  al igual que con mi familia, son esos momentos especiales que solo pasan una ves que se quedan en tus recuerdad y aveces suelen ser historias que puedes contar unos de los mejores momentos si n duda alguna fue cuando pude integrarme en el equipo de  barcenas eso  fue uno de los primeros logros pero  sin duda alguna voy por mas. </p>
+</div>
+</div>
+
+
+
+<div class="row">
+	<br><br><br>
+<div class="col-md-3">
+<img  class="z"src="imagenes/17.jpg">
+</div>
+
+
+<div class="col-md-3">
+<img  class="z"src="imagenes/18.jpg">
+</div>
+
+<div class="col-md-3">
+<img  class="z"src="imagenes/19.jpg">
+</div>
+
+<div class="col-md-3">
+<img  class="z"src="imagenes/20.jpg">
+</div>
+</div>
+<br><br><br><br></br>
+
+</div>
+
+</body>
+</html>

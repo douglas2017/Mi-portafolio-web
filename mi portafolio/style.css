@@ -1,0 +1,221 @@
+.a{
+	background: url(imagenes/1.jpg);
+	background-attachment: fixed;	
+}
+
+.e{
+	color:#8FC844;
+	font-size: 50px;
+	text-shadow: 0.1em 0.1em 0.2em white;
+}
+.b{
+	width: 252px;
+	height: 252px;
+	box-shadow: 5px 5px 5px white;
+}
+
+.ima{
+	background:url(imagenes/3.jpg);
+	width: 350px;
+	height:250px;
+	border-radius: 10px;
+}
+
+.c{
+	color:black;
+	text-shadow: white 0.1em 0.1em 0.2em;
+	font-size: 20px;
+	font-family: arial black;
+}
+
+.fondo1{
+	background: url(imagenes/5.jpg);
+	background-attachment: fixed;
+}
+
+
+
+.f{
+	color:#A21CFB;
+	font-size: 50px;
+	text-shadow: 0.1em 0.1em 0.2em 	#01FC22;
+	text-align: center;
+	font-family: arial black;
+}
+
+ .i{
+ 	height: 60%;
+ 	width: 60%;
+
+ }
+
+ h1{
+ 	color:#02B0FD 	;
+ 	font-family:arial black;
+ 	text-shadow: 0.1em 0.1em 0.2em #1910FE;
+
+ 	
+ }
+
+ h2{
+ 	color:white;
+ 	background: black;
+ 	opacity: 0.6;
+ 	border-radius:16%;
+ }
+
+
+ .j{
+ 	color: #9B8868;
+ 	font-size:18px;
+ 	font-family: arial black;
+ 	
+ }
+
+.k{
+	color: #9B8868;
+	font-family: arial black;
+	font-size: 18px;
+	
+}
+.l{
+	height:200px ;
+	width:150px ;
+}
+.m{
+		color: #9B8868;
+	font-family: arial black;
+	font-size: 18px;
+	
+
+}
+.n{
+	height: 200px;
+	width: 250px;
+}
+.o{
+	color: #9B8868;
+	font-family: arial black;
+	font-size: 18px;
+}
+
+.p{
+	height: 250px;
+	width: 300px;
+}
+
+.q{
+	background:url(imagenes/9.jpg);
+	background-attachment: fixed;
+}
+
+.r{
+	color:black;
+	font-size: 70px;
+	font-family: arial black;
+	text-shadow: -5px -5px 5px #aaa;
+	text-align: center;
+
+}
+
+.s{
+	color: 	#BFD130;
+	font-family: arial #BFD130;
+	font-size: 50px;
+	text-align: center;
+	text-shadow: -5px -5px 5px #aaa ;
+}
+.t{
+	color:#CCD629;
+	font-family: cursive;
+	font-size: 16px;
+	text-align: center;
+}
+
+.u{
+		color:#CCD629;
+	font-family: cursive;
+	font-size: 16px;
+	text-align: center;
+}
+
+.v{
+	background: url(imagenes/12.png);
+	background-attachment: fixed;
+	border-radius: 8px;
+	color:orange;
+	font-family: arial black;
+	font-size: 25px;
+	text-align: center;
+	box-shadow: 10px 10px 10px black;
+  box-shadow: 10px 10px 10px black;
+
+}
+
+.y{
+	background: url(imagenes/10.jpg);
+	background-attachment: fixed; 
+}
+.x{
+	color:#998666;
+	font-family: arial black ;
+	font-size:50px;
+	text-shadow:6px 6px 6px black;
+	text-align: center;
+}
+.z{
+	height: 200px;
+	width: 150px;
+	 box-shadow: 10px 10px 10px black;
+  -box-shadow: 10px 10px 10px black;
+ 
+}
+
+.col{
+	border: thick solid white;
+	float: left;
+  width: 50%;
+   float: right;
+  width: 50%;
+
+
+	color:#BDC522;
+	text-shadow: -5px -5px 5px 	black;
+	margin-right: 24%;
+	margin-left: 24%;
+	text-align: center;
+	font-family:arial black;
+	font-size: 18px;
+	box-shadow: 15px 15px 15px black;
+  box-shadow: 15px 15px 15px black;
+  
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+
+svg{
+  width: 600px;
+  height: 100px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
+  text-align: center
+}
